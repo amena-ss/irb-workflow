@@ -1,0 +1,34 @@
+.irb-wrap { font-family: Arial, sans-serif; color: #222; max-width: 860px; margin: 0 auto; padding: 8px 0; }
+
+.irb-cta { background: #e8f3fb; border: 1px solid #b5d4f4; border-radius: 10px; padding: 20px 24px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 28px; flex-wrap: wrap; gap: 12px; }
+.irb-cta-text h2 { font-size: 16px; font-weight: 600; color: #0c447c; margin: 0 0 4px 0; }
+.irb-cta-text p  { font-size: 13px; color: #185fa5; margin: 0; }
+.irb-btn { background: #1a5e8a; color: #fff; text-decoration: none; border-radius: 6px; padding: 9px 20px; font-size: 13px; font-weight: 600; white-space: nowrap; display: inline-block; }
+.irb-btn:hover { background: #164f76; color: #fff; }
+
+.irb-label { font-size: 11px; font-weight: 700; color: #888; text-transform: uppercase; letter-spacing: 0.07em; margin: 0 0 12px 0; }
+
+.irb-cards { display: flex; gap: 12px; margin-bottom: 28px; flex-wrap: wrap; }
+.irb-card { flex: 1; min-width: 180px; background: #f7f9fb; border: 1px solid #dde6ef; border-radius: 10px; padding: 16px; }
+.irb-card-icon { font-size: 22px; margin-bottom: 10px; }
+.irb-card h3 { font-size: 13px; font-weight: 700; margin: 0 0 5px 0; color: #1a3a52; }
+.irb-card p  { font-size: 12px; color: #555; margin: 0; line-height: 1.5; }
+.icon-green { color: #3B6D11; }
+.icon-amber { color: #854F0B; }
+.icon-blue  { color: #185fa5; }
+
+.irb-status { margin-bottom: 28px; display: flex; flex-direction: column; gap: 6px; }
+.irb-status-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 14px; border: 1px solid #dde6ef; border-radius: 8px; font-size: 13px; background: #fff; }
+.irb-status-left { display: flex; align-items: center; gap: 10px; color: #222; }
+.irb-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+.dot-green  { background: #27ae60; }
+.dot-orange { background: #e67e22; }
+.tag { font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 10px; }
+.tag-open   { background: #EAF3DE; color: #3B6D11; }
+.tag-review { background: #FAEEDA; color: #854F0B; }
+
+.irb-divider { border: none; border-top: 1px solid #e0e6ed; margin: 4px 0 24px 0; }
+
+.irb-checklist { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 7px; }
+.irb-checklist li { display: flex; align-items: center; gap: 9px; font-size: 13px; color: #444; }
+.irb-check-icon { width: 18px; height: 18px; border-radius: 50%; background: #e8f3fb; color: #185fa5; display: inline-flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; flex-shrink: 0; }

@@ -1,0 +1,102 @@
+<!-- REVIEW TYPES PAGE — paste into Indico "IRB Review Types" page editor (HTML/source mode) -->
+ 
+<p style="font-size:13px;color:#445566;margin:0 0 24px 0;line-height:1.6;font-family:'Liberation Sans',sans-serif;">
+  The IRB evaluates research protocols based on the level of risk to participants. Select the appropriate review type below to understand the process and requirements for each category.
+</p>
+ 
+<!-- Timeline -->
+<div style="position:relative;padding-left:0;font-family:'Liberation Sans',sans-serif;">
+ 
+  <!-- Step 1: Exempt -->
+  <div style="display:flex;gap:20px;margin-bottom:32px;align-items:flex-start;">
+    <!-- Icon + line -->
+    <div style="display:flex;flex-direction:column;align-items:center;flex-shrink:0;">
+      <div style="width:44px;height:44px;border-radius:50%;background:#3B6D11;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700;box-shadow:0 2px 8px rgba(59,109,17,0.3);">1</div>
+      <div style="width:2px;flex:1;min-height:60px;background:linear-gradient(to bottom,#3B6D11,#1a5e8a);margin-top:6px;"></div>
+    </div>
+    <!-- Content card -->
+    <div style="flex:1;background:#fff;border:1px solid #dde6ef;border-radius:10px;padding:18px 20px;border-left:4px solid #3B6D11;">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:10px;">
+        <h3 style="font-size:15px;font-weight:700;color:#1a3a52;margin:0;">Exempt Review</h3>
+        <span style="font-size:11px;font-weight:700;padding:3px 10px;border-radius:10px;background:#EAF3DE;color:#3B6D11;">Turnaround: 1&ndash;2 weeks</span>
+      </div>
+      <p style="font-size:13px;color:#445566;margin:0 0 10px 0;line-height:1.6;">Research involving minimal risk to participants. Typically covers surveys, interviews, and educational testing where participant privacy is protected.</p>
+      <p style="font-size:12px;font-weight:600;color:#3B6D11;margin:0;">&#10003; Lowest risk &nbsp;&nbsp; &#10003; Fastest approval &nbsp;&nbsp; &#10003; No ongoing review required</p>
+    </div>
+  </div>
+ 
+  <!-- Step 2: Expedited -->
+  <div style="display:flex;gap:20px;margin-bottom:32px;align-items:flex-start;">
+    <div style="display:flex;flex-direction:column;align-items:center;flex-shrink:0;">
+      <div style="width:44px;height:44px;border-radius:50%;background:#1a5e8a;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700;box-shadow:0 2px 8px rgba(26,94,138,0.3);">2</div>
+      <div style="width:2px;flex:1;min-height:60px;background:linear-gradient(to bottom,#1a5e8a,#854F0B);margin-top:6px;"></div>
+    </div>
+    <div style="flex:1;background:#fff;border:1px solid #dde6ef;border-radius:10px;padding:18px 20px;border-left:4px solid #1a5e8a;">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:10px;">
+        <h3 style="font-size:15px;font-weight:700;color:#1a3a52;margin:0;">Expedited Review</h3>
+        <span style="font-size:11px;font-weight:700;padding:3px 10px;border-radius:10px;background:#e8f3fb;color:#1a5e8a;">Turnaround: 2&ndash;3 weeks</span>
+      </div>
+      <p style="font-size:13px;color:#445566;margin:0 0 10px 0;line-height:1.6;">Research involving no more than minimal risk and fitting specific categories defined by federal regulations. Reviewed by one or more IRB members rather than the full board.</p>
+      <p style="font-size:12px;font-weight:600;color:#1a5e8a;margin:0;">&#10003; Low risk &nbsp;&nbsp; &#10003; Single reviewer &nbsp;&nbsp; &#10003; Annual continuing review</p>
+    </div>
+  </div>
+ 
+  <!-- Step 3: Full Board -->
+  <div style="display:flex;gap:20px;margin-bottom:16px;align-items:flex-start;">
+    <div style="display:flex;flex-direction:column;align-items:center;flex-shrink:0;">
+      <div style="width:44px;height:44px;border-radius:50%;background:#854F0B;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:700;box-shadow:0 2px 8px rgba(133,79,11,0.3);">3</div>
+    </div>
+    <div style="flex:1;background:#fff;border:1px solid #dde6ef;border-radius:10px;padding:18px 20px;border-left:4px solid #854F0B;">
+      <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:10px;">
+        <h3 style="font-size:15px;font-weight:700;color:#1a3a52;margin:0;">Full Board Review</h3>
+        <span style="font-size:11px;font-weight:700;padding:3px 10px;border-radius:10px;background:#FAEEDA;color:#854F0B;">Turnaround: 4&ndash;6 weeks</span>
+      </div>
+      <p style="font-size:13px;color:#445566;margin:0 0 10px 0;line-height:1.6;">Research involving more than minimal risk to participants. Requires review and approval by a quorum of the full IRB committee at a convened meeting.</p>
+      <p style="font-size:12px;font-weight:600;color:#854F0B;margin:0;">&#10003; Higher risk &nbsp;&nbsp; &#10003; Full committee vote &nbsp;&nbsp; &#10003; Ongoing monitoring required</p>
+    </div>
+  </div>
+ 
+</div>
+ 
+<!-- Divider -->
+<hr style="border:none;border-top:1px solid #dde6ef;margin:24px 0;">
+ 
+<!-- Process flow -->
+<p style="font-size:11px;font-weight:700;color:#667788;text-transform:uppercase;letter-spacing:0.07em;margin:0 0 14px 0;">General submission process</p>
+<div style="display:flex;gap:0;align-items:stretch;flex-wrap:wrap;">
+ 
+  <div style="flex:1;min-width:120px;text-align:center;padding:14px 10px;background:#f0f7ff;border:1px solid #b5d4f4;border-radius:8px 0 0 8px;">
+    <div style="font-size:20px;margin-bottom:6px;">&#128196;</div>
+    <div style="font-size:12px;font-weight:700;color:#1a3a52;font-family:'Liberation Sans',sans-serif;">1. Prepare</div>
+    <div style="font-size:11px;color:#445566;margin-top:4px;font-family:'Liberation Sans',sans-serif;">Gather all required documents</div>
+  </div>
+  <div style="width:20px;background:#dde6ef;display:flex;align-items:center;justify-content:center;font-size:14px;color:#1a5e8a;font-weight:700;">&#8250;</div>
+ 
+  <div style="flex:1;min-width:120px;text-align:center;padding:14px 10px;background:#f0f7ff;border-top:1px solid #b5d4f4;border-bottom:1px solid #b5d4f4;">
+    <div style="font-size:20px;margin-bottom:6px;">&#128440;</div>
+    <div style="font-size:12px;font-weight:700;color:#1a3a52;font-family:'Liberation Sans',sans-serif;">2. Submit</div>
+    <div style="font-size:11px;color:#445566;margin-top:4px;font-family:'Liberation Sans',sans-serif;">Complete the online form</div>
+  </div>
+  <div style="width:20px;background:#dde6ef;display:flex;align-items:center;justify-content:center;font-size:14px;color:#1a5e8a;font-weight:700;">&#8250;</div>
+ 
+  <div style="flex:1;min-width:120px;text-align:center;padding:14px 10px;background:#f0f7ff;border-top:1px solid #b5d4f4;border-bottom:1px solid #b5d4f4;">
+    <div style="font-size:20px;margin-bottom:6px;">&#128269;</div>
+    <div style="font-size:12px;font-weight:700;color:#1a3a52;font-family:'Liberation Sans',sans-serif;">3. Review</div>
+    <div style="font-size:11px;color:#445566;margin-top:4px;font-family:'Liberation Sans',sans-serif;">IRB evaluates protocol</div>
+  </div>
+  <div style="width:20px;background:#dde6ef;display:flex;align-items:center;justify-content:center;font-size:14px;color:#1a5e8a;font-weight:700;">&#8250;</div>
+ 
+  <div style="flex:1;min-width:120px;text-align:center;padding:14px 10px;background:#f0f7ff;border-top:1px solid #b5d4f4;border-bottom:1px solid #b5d4f4;">
+    <div style="font-size:20px;margin-bottom:6px;">&#128172;</div>
+    <div style="font-size:12px;font-weight:700;color:#1a3a52;font-family:'Liberation Sans',sans-serif;">4. Respond</div>
+    <div style="font-size:11px;color:#445566;margin-top:4px;font-family:'Liberation Sans',sans-serif;">Address any feedback</div>
+  </div>
+  <div style="width:20px;background:#dde6ef;display:flex;align-items:center;justify-content:center;font-size:14px;color:#1a5e8a;font-weight:700;">&#8250;</div>
+ 
+  <div style="flex:1;min-width:120px;text-align:center;padding:14px 10px;background:#EAF3DE;border:1px solid #3B6D11;border-radius:0 8px 8px 0;">
+    <div style="font-size:20px;margin-bottom:6px;">&#9989;</div>
+    <div style="font-size:12px;font-weight:700;color:#3B6D11;font-family:'Liberation Sans',sans-serif;">5. Approved</div>
+    <div style="font-size:11px;color:#3B6D11;margin-top:4px;font-family:'Liberation Sans',sans-serif;">Receive approval letter</div>
+  </div>
+ 
+</div>

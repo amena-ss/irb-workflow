@@ -1,99 +1,65 @@
-<!-- Paste this into the Indico page editor (HTML/source mode) -->
-<!-- All styles are inline — no <style> block needed -->
-
-<!-- CTA Banner -->
-<div style="background:#e8f3fb;border:1px solid #b5d4f4;border-radius:10px;padding:20px 24px;display:flex;align-items:center;justify-content:space-between;margin-bottom:28px;flex-wrap:wrap;gap:12px;">
-  <div>
-    <h2 style="font-size:16px;font-weight:700;color:#0c447c;margin:0 0 4px 0;">Ready to submit your research protocol?</h2>
-    <p style="font-size:13px;color:#185fa5;margin:0;">Select the appropriate review type and complete your submission online.</p>
-  </div>
-  <a href="#" style="background:#1a5e8a;color:#fff;text-decoration:none;border-radius:6px;padding:9px 20px;font-size:13px;font-weight:700;display:inline-block;">+ New submission</a>
+<!-- HOME PAGE — paste into Indico "Home" page editor (HTML/source mode) -->
+ 
+<!-- Required Documents Checklist -->
+<p style="font-size:11px;font-weight:700;color:#667788;text-transform:uppercase;letter-spacing:0.07em;margin:0 0 10px 0;">Required documents checklist</p>
+<div style="background:#f0f7ff;border:1px solid #b5d4f4;border-radius:8px;padding:16px 20px;margin-bottom:24px;">
+  <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:8px;">
+    <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#1a3a52;font-family:'Liberation Sans',sans-serif;">
+      <span style="width:20px;height:20px;border-radius:50%;background:#1a5e8a;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0;">&#10003;</span>
+      PI and co-PI CVs
+    </li>
+    <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#1a3a52;font-family:'Liberation Sans',sans-serif;">
+      <span style="width:20px;height:20px;border-radius:50%;background:#1a5e8a;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0;">&#10003;</span>
+      Informed consent form
+    </li>
+    <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#1a3a52;font-family:'Liberation Sans',sans-serif;">
+      <span style="width:20px;height:20px;border-radius:50%;background:#1a5e8a;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0;">&#10003;</span>
+      Research protocol form
+    </li>
+    <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#1a3a52;font-family:'Liberation Sans',sans-serif;">
+      <span style="width:20px;height:20px;border-radius:50%;background:#1a5e8a;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0;">&#10003;</span>
+      NCBE certificate for each PI
+    </li>
+    <li style="display:flex;align-items:center;gap:10px;font-size:13px;color:#1a3a52;font-family:'Liberation Sans',sans-serif;">
+      <span style="width:20px;height:20px;border-radius:50%;background:#1a5e8a;color:#fff;display:inline-flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;flex-shrink:0;">&#10003;</span>
+      Questionnaire (if applicable)
+    </li>
+  </ul>
 </div>
-
-<!-- Review Types Label -->
-<p style="font-size:11px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:0.07em;margin:0 0 12px 0;">Review types</p>
-
-<!-- Review Type Cards -->
-<div style="display:flex;gap:12px;margin-bottom:28px;flex-wrap:wrap;">
-
-  <div style="flex:1;min-width:180px;background:#f7f9fb;border:1px solid #dde6ef;border-radius:10px;padding:16px;">
-    <div style="font-size:22px;margin-bottom:10px;color:#3B6D11;">&#9654;</div>
-    <h3 style="font-size:13px;font-weight:700;margin:0 0 5px 0;color:#1a3a52;">Exempt review</h3>
-    <p style="font-size:12px;color:#555;margin:0;line-height:1.5;">Minimal-risk studies. Typical turnaround: 1&ndash;2 weeks.</p>
-  </div>
-
-  <div style="flex:1;min-width:180px;background:#f7f9fb;border:1px solid #dde6ef;border-radius:10px;padding:16px;">
-    <div style="font-size:22px;margin-bottom:10px;color:#854F0B;">&#9889;</div>
-    <h3 style="font-size:13px;font-weight:700;margin:0 0 5px 0;color:#1a3a52;">Expedited review</h3>
-    <p style="font-size:12px;color:#555;margin:0;line-height:1.5;">Low-risk studies. Typical turnaround: 2&ndash;3 weeks.</p>
-  </div>
-
-  <div style="flex:1;min-width:180px;background:#f7f9fb;border:1px solid #dde6ef;border-radius:10px;padding:16px;">
-    <div style="font-size:22px;margin-bottom:10px;color:#185fa5;">&#128101;</div>
-    <h3 style="font-size:13px;font-weight:700;margin:0 0 5px 0;color:#1a3a52;">Full board review</h3>
-    <p style="font-size:12px;color:#555;margin:0;line-height:1.5;">Higher-risk studies. Typical turnaround: 4&ndash;6 weeks.</p>
-  </div>
-
-</div>
-
-<!-- Submission Status Label -->
-<p style="font-size:11px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:0.07em;margin:0 0 12px 0;">Submission status</p>
-
-<!-- Status Rows -->
+ 
+<!-- Submission Status -->
+<p style="font-size:11px;font-weight:700;color:#667788;text-transform:uppercase;letter-spacing:0.07em;margin:0 0 10px 0;">Submission status</p>
 <div style="display:flex;flex-direction:column;gap:6px;margin-bottom:28px;">
-
-  <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border:1px solid #dde6ef;border-radius:8px;font-size:13px;background:#fff;">
-    <div style="display:flex;align-items:center;gap:10px;color:#222;">
-      <span style="width:8px;height:8px;border-radius:50%;background:#27ae60;display:inline-block;"></span>
-      New submissions
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 16px;border:1px solid #dde6ef;border-radius:8px;background:#fff;font-family:'Liberation Sans',sans-serif;">
+    <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:#1a3a52;">
+      <span style="width:8px;height:8px;border-radius:50%;background:#27ae60;display:inline-block;flex-shrink:0;"></span>New submissions
     </div>
-    <span style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:10px;background:#EAF3DE;color:#3B6D11;">Open</span>
+    <span style="font-size:11px;font-weight:700;padding:3px 10px;border-radius:10px;background:#EAF3DE;color:#3B6D11;">Open</span>
   </div>
-
-  <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border:1px solid #dde6ef;border-radius:8px;font-size:13px;background:#fff;">
-    <div style="display:flex;align-items:center;gap:10px;color:#222;">
-      <span style="width:8px;height:8px;border-radius:50%;background:#e67e22;display:inline-block;"></span>
-      Continuing review
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 16px;border:1px solid #dde6ef;border-radius:8px;background:#fff;font-family:'Liberation Sans',sans-serif;">
+    <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:#1a3a52;">
+      <span style="width:8px;height:8px;border-radius:50%;background:#e67e22;display:inline-block;flex-shrink:0;"></span>Continuing review
     </div>
-    <span style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:10px;background:#FAEEDA;color:#854F0B;">In progress</span>
+    <span style="font-size:11px;font-weight:700;padding:3px 10px;border-radius:10px;background:#FAEEDA;color:#854F0B;">In progress</span>
   </div>
-
-  <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 14px;border:1px solid #dde6ef;border-radius:8px;font-size:13px;background:#fff;">
-    <div style="display:flex;align-items:center;gap:10px;color:#222;">
-      <span style="width:8px;height:8px;border-radius:50%;background:#27ae60;display:inline-block;"></span>
-      Amendment requests
+  <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 16px;border:1px solid #dde6ef;border-radius:8px;background:#fff;font-family:'Liberation Sans',sans-serif;">
+    <div style="display:flex;align-items:center;gap:10px;font-size:13px;color:#1a3a52;">
+      <span style="width:8px;height:8px;border-radius:50%;background:#27ae60;display:inline-block;flex-shrink:0;"></span>Amendment requests
     </div>
-    <span style="font-size:11px;font-weight:700;padding:2px 9px;border-radius:10px;background:#EAF3DE;color:#3B6D11;">Open</span>
+    <span style="font-size:11px;font-weight:700;padding:3px 10px;border-radius:10px;background:#EAF3DE;color:#3B6D11;">Open</span>
   </div>
-
 </div>
-
+ 
 <!-- Divider -->
-<hr style="border:none;border-top:1px solid #e0e6ed;margin:4px 0 24px 0;">
-
-<!-- Required Documents Label -->
-<p style="font-size:11px;font-weight:700;color:#888;text-transform:uppercase;letter-spacing:0.07em;margin:0 0 12px 0;">Required documents checklist</p>
-
-<!-- Checklist -->
-<ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:7px;">
-  <li style="display:flex;align-items:center;gap:9px;font-size:13px;color:#444;">
-    <span style="width:18px;height:18px;border-radius:50%;background:#e8f3fb;color:#185fa5;display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;">&#10003;</span>
-    PI and co-PI CVs
-  </li>
-  <li style="display:flex;align-items:center;gap:9px;font-size:13px;color:#444;">
-    <span style="width:18px;height:18px;border-radius:50%;background:#e8f3fb;color:#185fa5;display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;">&#10003;</span>
-    Informed consent form
-  </li>
-  <li style="display:flex;align-items:center;gap:9px;font-size:13px;color:#444;">
-    <span style="width:18px;height:18px;border-radius:50%;background:#e8f3fb;color:#185fa5;display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;">&#10003;</span>
-    Research protocol form
-  </li>
-  <li style="display:flex;align-items:center;gap:9px;font-size:13px;color:#444;">
-    <span style="width:18px;height:18px;border-radius:50%;background:#e8f3fb;color:#185fa5;display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;">&#10003;</span>
-    NCBE certificate for each PI
-  </li>
-  <li style="display:flex;align-items:center;gap:9px;font-size:13px;color:#444;">
-    <span style="width:18px;height:18px;border-radius:50%;background:#e8f3fb;color:#185fa5;display:inline-flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;flex-shrink:0;">&#10003;</span>
-    Questionnaire (if applicable)
-  </li>
-</ul>
+<hr style="border:none;border-top:1px solid #dde6ef;margin:0 0 24px 0;">
+ 
+<!-- New Submission CTA (bottom) -->
+<p style="font-size:11px;font-weight:700;color:#667788;text-transform:uppercase;letter-spacing:0.07em;margin:0 0 10px 0;">Submit your research</p>
+<div style="background:#1a5e8a;border-radius:10px;padding:22px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+  <div>
+    <h2 style="font-size:15px;font-weight:700;color:#ffffff;margin:0 0 4px 0;font-family:'Liberation Sans',sans-serif;">Ready to submit your research protocol?</h2>
+    <p style="font-size:13px;color:rgba(255,255,255,0.8);margin:0;font-family:'Liberation Sans',sans-serif;">Select the appropriate review type and complete your submission online.</p>
+  </div>
+  <a href="#" style="background:#ffffff;color:#1a5e8a;text-decoration:none;border-radius:6px;padding:9px 20px;font-size:13px;font-weight:700;display:inline-block;white-space:nowrap;font-family:'Liberation Sans',sans-serif;">+ New submission</a>
+</div>
+ 
